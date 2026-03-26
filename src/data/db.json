@@ -1,0 +1,33 @@
+{
+  "users": [
+    { "id": "u1", "name": "John Student", "role": "student", "email": "john@college.edu" },
+    { "id": "u2", "name": "Sarah Mentor", "role": "mentor", "email": "sarah@college.edu" },
+    { "id": "u3", "name": "Admin User", "role": "admin", "email": "admin@college.edu" }
+  ],
+  "complaints": [
+    {
+      "id": "c1",
+      "title": "Broken AC in Lab 1",
+      "description": "The air conditioner in the computer lab is not cooling properly.",
+      "createdBy": "u1",
+      "creatorName": "John Student",
+      "createdAt": "2024-03-25T09:00:00Z",
+      "status": "processing",
+      "assignedTo": "u2",
+      "resolution": "",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "c2",
+      "title": "Wi-Fi Connectivity Issues",
+      "description": "Library Wi-Fi is extremely slow during peak hours.",
+      "createdBy": "u1",
+      "creatorName": "John Student",
+      "createdAt": "2024-03-24T14:30:00Z",
+      "status": "done",
+      "assignedTo": "u3",
+      "resolution": "Router upgraded to high-speed fiber optic.",
+      "category": "IT Services"
+    }
+  ]
+}
